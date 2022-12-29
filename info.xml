@@ -2,16 +2,16 @@
 <extension key="de.systopia.externalfile" type="module">
   <file>externalfile</file>
   <name>de.systopia.externalfile</name>
-  <description>FIXME</description>
+  <description>This Extension provides an API to manage external files.</description>
   <license>AGPL-3.0</license>
   <maintainer>
     <author>Benni Baermann</author>
     <email>baermann@systopia.de</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">http://FIXME</url>
-    <url desc="Documentation">http://FIXME</url>
-    <url desc="Support">http://FIXME</url>
+    <url desc="Main Extension Page">https://github.com/systopia/de.systopia.externalfile</url>
+    <url desc="Documentation">https://github.com/systopia/de.systopia.externalfile</url>
+    <url desc="Support">https://github.com/systopia/de.systopia.externalfile</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <releaseDate>2022-12-28</releaseDate>
