@@ -62,4 +62,9 @@ class CRM_ExternalFile_Test extends \PHPUnit\Framework\TestCase implements Headl
     $this->assertEquals('UnitTests', CIVICRM_UF);
   }
 
+  /* Test if Entity exists */
+  public function testEntityExists():void {
+    $entity = civicrm_api4('ExternalFile','get');
+  }
+
 }
