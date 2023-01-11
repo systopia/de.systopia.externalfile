@@ -218,5 +218,11 @@ function _externalfile_civix_fixNavigationMenuItems(&$nodes, &$maxNavID, $parent
  * @link https://docs.civicrm.org/dev/en/latest/hooks/hook_civicrm_entityTypes
  */
 function _externalfile_civix_civicrm_entityTypes(&$entityTypes) {
-  $entityTypes = array_merge($entityTypes, []);
+  $entityTypes = array_merge($entityTypes, [
+    'CRM_Externalfile_DAO_ExternalFile' => [
+      'name' => 'ExternalFile',
+      'class' => 'CRM_Externalfile_DAO_ExternalFile',
+      'table' => 'civicrm_external_file',
+    ],
+  ]);
 }
