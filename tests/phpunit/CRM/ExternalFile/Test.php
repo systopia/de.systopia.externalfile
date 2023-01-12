@@ -69,4 +69,13 @@ class CRM_ExternalFile_Test extends \PHPUnit\Framework\TestCase implements Headl
     $this->assertEquals('ExternalFile',$entity->entity);
   }
 
+  public function testCreateEntity():void {
+    $results = \Civi\Api4\ExternalFile::create("https://raw.githubusercontent.com/systopia/de.systopia.externalfile/main/README.md")
+      ->execute();
+    print_r($results[0]);
+
+
+
+  }
+
 }
